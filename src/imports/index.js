@@ -20,7 +20,7 @@ export { default as articles7 } from "@/assets/images/articles/A8.png";
 export { default as articles8 } from "@/assets/images/articles/A7.jpg";
 
 //* IMPORT IMAGE ABOUT
-export { default as profilePic } from "@/assets/images/profile/Profile-pic.jpg";
+export { default as profilePic } from "@/assets/images/profile/profile-pic.jpg";
 
 //* IMPORT IMAGE HOME
 export { default as profilePicHome } from "@/assets/images/profile/dev.png";
