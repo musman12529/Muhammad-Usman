@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid";
 export const DataAbount = [
   {
     id: uuid(),
-    type: "- Hi I am Truong Tan Nghia, a web developer and UI/UX designer with a passion for creating beautiful, functional, anduser-centered digital experiences. With 4 years of experience in the field. I am always looking for new and innovative ways to bring my client visions to life.",
+    type: "- Hi I am Muhammad Usman, a web developer and UI/UX designer with a passion for creating beautiful, functional, anduser-centered digital experiences. With 4 years of experience in the field. I am always looking for new and innovative ways to bring my client visions to life.",
   },
   {
     id: uuid(),

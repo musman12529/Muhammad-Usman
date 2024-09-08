@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Head>
         <title>Muhammad-Usman-Profile</title>
-        <meta name="description" content="Hi I'm Truong Tan Nghia" />
+        <meta name="description" content="Hi I'm Muhammad Usman" />
       </Head>
       <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
