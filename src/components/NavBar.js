@@ -171,12 +171,7 @@ const NavBar = () => {
                 className=""
                 toggle={handleClick}
               />
-              <CustomMobileLink
-                href="/articles"
-                title="Articles"
-                className=""
-                toggle={handleClick}
-              />
+              
               <CustomMobileLink
                 href="/certificate"
                 title="Certificate"
@@ -206,15 +201,7 @@ const NavBar = () => {
               >
                 <LinkedInIcon />
               </motion.a>
-              <motion.a
-                href="https://www.pinterest.com/tannghiaxp"
-                target={"_blank"}
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }}
-                className="w-8 ml-5 bg-light rounded-full sm:mx-1"
-              >
-                <PinterestIcon />
-              </motion.a>
+              
               <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
                 className={`ml-7 flex items-center justify-center rounded-full p-1 sm:mx-1 ${
