@@ -12,7 +12,6 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
-import { profilePic } from "@/imports";
 import { DataAbount } from "@/dummy/About";
 
 const About = () => {
@@ -57,17 +56,9 @@ const About = () => {
                 Hi, I am Muhammad Usman
               </h2>
               
-              <p className="my-2 font-medium">
-              A tech enthusiast and developer with a passion for creating innovative digital experiences. Currently in my fourth year studying Computer Science at Memorial University of Newfoundland, I’m all about turning complex problems into elegant solutions.</p>
-
+             
 <p className="my-2 font-medium">
-When I’m not buried in textbooks, you’ll find me developing new apps or dreaming up the next tech breakthrough. From building Internship Portal with React.js to scraping Premier League Data and making a machine learning model with it, I tackle every project with enthusiasm and a can-do attitude.</p>
-
-<p className="my-2 font-medium">
-At the Muslim Students’ Association at Memorial University, I’m currently leveraging Next.js and TypeScript within an Agile team to develop a scalable web application. I’m also integrating PostgreSQL to enhance our data storage and retrieval capabilities, while using React.js to ensure optimized state management and an organized component architecture.</p>
-
-<p className="my-2 font-medium">
-If you’re interested in my projects or just want to chat about tech, feel free to reach out. I’m always up for new challenges and discussions!</p>
+I’m a Software Engineer specializing in full stack development, with hands-on experience building scalable applications for both academic departments and student organizations. At Memorial University, I developed ETL pipelines migrating 200,000+ records into graph databases, optimized data retrieval speeds by 60%, and engineered web applications that improved accessibility for 200+ users. My technical toolkit includes Python, React.js, Node.js, PostgreSQL, MongoDB, and AWS, with additional experience in real-time collaboration and AI-powered applications. I enjoy turning complex challenges into streamlined, impactful solutions and am eager to contribute my skills to software engineering teams focused on innovation and growth.</p>
 
 
              
@@ -79,11 +70,13 @@ If you’re interested in my projects or just want to chat about tech, feel free
             >
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light " />
               <Image
-                src={profilePic}
-                alt="TanNghia"
+                src="/profile.jpeg"
+                alt="Muhammad Usman"
                 className="w-[365px] h-[441px] object-contain rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                width={365}
+                height={400}
               />
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between mr-[20px] xl:col-span-8 xl:flex-row xl:items-center md:order-3  ">

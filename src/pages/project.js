@@ -34,11 +34,13 @@ const FeaturedProject = ({ type, img, title, summary, link, github }) => {
         <FramerImage
           src={img}
           alt={title}
-          className="w-[580px] h-[389px] object-contain"
+          className="w-full h-[389px] object-cover"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
           priority
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+          width={580}
+          height={389}
         />
       </Link>
       <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
@@ -91,7 +93,7 @@ const Project = ({ type, img, title, link, github }) => {
         target="_blank"
         className="w-full cursor-pointer overflow-hidden rounded-lg "
       >
-        <Image src={img} alt={title} className="w-[530px] h-[320px] object-contain" />
+        <Image src={img} alt={title} className="w-[530px] h-[320px] object-contain" width={530} height={320} />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4">
         <span className="text-primary font-medium text-xl lg:text-lg md:text-base">

@@ -7,7 +7,6 @@ import Image from "next/image";
 import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import { LinkArrow } from "@/components/Icons";
-import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 import { lightBulb, profilePicHome } from "@/imports";
 
@@ -66,7 +65,6 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <HireMe />
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image src={lightBulb} alt="TanNghia" className="w-full h-auto" />
         </div>

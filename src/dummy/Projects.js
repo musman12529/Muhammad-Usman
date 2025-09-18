@@ -25,6 +25,18 @@ export const dataProject = [
   },
   {
     id: uuid(),
+    title: "Project Management Platform",
+    summary:
+      "Built a full-stack solution using Next.js, Node.js, and MongoDB, improving team coordination and task management. Implemented real-time collaboration with Socket.IO and incorporated Gemini API for AI-driven task insights. Features include project management, task tracking, and AI-generated insights for optimal project outcomes.",
+    link: "https://pcl-frontend-zeta.vercel.app/",
+    github: "https://github.com/musman12529/Project-Management-Platform",
+    type: "Featured Project",
+    img: "/projectManagement.png",
+    styles: "col-span-12",
+    type: 1,
+  },
+  {
+    id: uuid(),
     title: "Soccer Match Prediction",
     summary:
       "  This repository contains a machine learning model to predict the outcome of football matches using a Random Forest classifier. The dataset is processed to include features like venue, opponent, and rolling averages of game statistics to enhance prediction accuracy.",
