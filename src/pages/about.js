@@ -40,8 +40,11 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Muhammad-Profile | About Page</title>
-        <meta name="description" content="any description" />
+        <title>Muhammad Usman | About</title>
+        <meta
+          name="description"
+          content="Muhammad Usman, software engineer and full-stack developer, B.Sc. Computer Science, Memorial University of Newfoundland."
+        />
       </Head>
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-between dark:text-light ">
@@ -55,13 +58,11 @@ const About = () => {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 ">
                 Hi, I am Muhammad Usman
               </h2>
-              
-             
-<p className="my-2 font-medium">
-I’m a Software Engineer specializing in full stack development, with hands-on experience building scalable applications for both academic departments and student organizations. At Memorial University, I developed ETL pipelines migrating 200,000+ records into graph databases, optimized data retrieval speeds by 60%, and engineered web applications that improved accessibility for 200+ users. My technical toolkit includes Python, React.js, Node.js, PostgreSQL, MongoDB, and AWS, with additional experience in real-time collaboration and AI-powered applications. I enjoy turning complex challenges into streamlined, impactful solutions and am eager to contribute my skills to software engineering teams focused on innovation and growth.</p>
-
-
-             
+              {DataAbount.map((block) => (
+                <p key={block.id} className="my-2 font-medium">
+                  {block.type}
+                </p>
+              ))}
             </div>
             <div
               className="col-span-3 relative h-max rounded-2xl 
@@ -70,7 +71,7 @@ I’m a Software Engineer specializing in full stack development, with hands-on 
             >
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light " />
               <Image
-                src="/profile.jpeg"
+                src="/profile.png"
                 alt="Muhammad Usman"
                 className="w-[365px] h-[441px] object-contain rounded-2xl"
                 priority
@@ -91,8 +92,6 @@ I’m a Software Engineer specializing in full stack development, with hands-on 
                   Projects Completed
                 </h2>
               </div>
-              
-              
             </div>
           </div>
           <Skills />

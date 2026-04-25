@@ -13,7 +13,6 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { dataProject } from "@/dummy/Projects";
 
 const FramerImage = motion(Image);
-console.log(dataProject);
 const FeaturedProject = ({ type, img, title, summary, link, github }) => {
   return (
     <article
@@ -133,7 +132,10 @@ const project = () => {
     <>
       <Head>
         <title>Muhammad-Usman-Profile | Project Page</title>
-        <meta name="description" content="any description" />
+        <meta
+          name="description"
+          content="Projects by Muhammad Usman: full-stack, machine learning, and mobile applications."
+        />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">

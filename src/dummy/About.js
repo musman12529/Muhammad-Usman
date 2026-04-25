@@ -3,14 +3,14 @@ import { v4 as uuid } from "uuid";
 export const DataAbount = [
   {
     id: uuid(),
-    type: "- Hi I am Muhammad Usman, a web developer and UI/UX designer with a passion for creating beautiful, functional, anduser-centered digital experiences. With 4 years of experience in the field. I am always looking for new and innovative ways to bring my client visions to life.",
+    type: "I am a software engineer with experience across product teams and university research settings. At Laniva AI, I ship a Next.js and PostgreSQL SaaS platform with LLM-driven tenant communications on Azure. At Memorial, I have built Neo4j-backed graph services, ETL pipelines at scale, and React and Node.js applications with MongoDB and Azure Blob Storage.",
   },
   {
     id: uuid(),
-    type: "- I believe that design is about more than just making things look pretty – it about solving problems and creating intuitive, enjoyable experiences for users.",
+    type: "My toolkit aligns with modern full-stack practice: Python, TypeScript, JavaScript, and Java; React.js and Next.js; Node.js, Express, and Spring Boot; PostgreSQL, MySQL, MongoDB, and Neo4j; and Git, Azure, AWS (Certified Cloud Practitioner), and Postman. I care about reliable deployments, clear APIs, and measurable impact on users.",
   },
   {
     id: uuid(),
-    type: "- Whether I am working on a website, mobile app, or otherdigital products, I bring my commitment to design excellence anduser-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.",
+    type: "I enjoy turning complex data and workflow problems into maintainable systems, whether that is graph migration with semantic validation, real-time collaboration, or AI-assisted features. I am motivated by shipping software that holds up in production and keeps improving from real feedback.",
   },
 ];

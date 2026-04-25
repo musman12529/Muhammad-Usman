@@ -8,6 +8,7 @@ import {
   project6,
   project7,
   project8,
+  project9,
 } from "@/imports";
 
 export const dataProject = [
@@ -15,7 +16,7 @@ export const dataProject = [
     id: uuid(),
     title: "Premier League Fantasy",
     summary:
-      "  Premier League Fantasy predicts football match outcomes using a Random Forest model. It involves data scraping for over 600 players, processing with Python and pandas, and storing results in a PostgreSQL database. The project includes a Spring Boot backend for manipulation and presentation of data and a ReactJS frontend for an intuitive interface.",
+      "Premier League Fantasy predicts football match outcomes using a Random Forest classifier with scikit-learn. It includes data scraping for 600+ players, processing with Python and pandas, and a PostgreSQL database. The project features an object-oriented Spring Boot backend and a React.js frontend for real-time data manipulation and presentation.",
     link: "https://github.com/musman12529/Premier-League-Fantasy",
     github: "https://github.com/musman12529/Premier-League-Fantasy",
     type: "Featured Project",
@@ -25,15 +26,27 @@ export const dataProject = [
   },
   {
     id: uuid(),
+    title: "Study Early",
+    summary:
+      "A Flutter-based student productivity app for course management, scheduling, reminders, and progress tracking. Integrated Firebase for backend services and the OpenAI API for AI-generated quizzes and an in-app study assistant to support learning.",
+    link: "https://github.com/musman12529/Study-Early",
+    github: "https://github.com/musman12529/Study-Early",
+    type: "App Project",
+    img: project9,
+    styles: "col-span-6 sm:col-span-12",
+    type: 0,
+  },
+  {
+    id: uuid(),
     title: "Project Management Platform",
     summary:
-      "Built a full-stack solution using Next.js, Node.js, and MongoDB, improving team coordination and task management. Implemented real-time collaboration with Socket.IO and incorporated Gemini API for AI-driven task insights. Features include project management, task tracking, and AI-generated insights for optimal project outcomes.",
+      "Built a full-stack solution using Next.js, TypeScript, Node.js, and MongoDB, improving team coordination and task management. Implemented real-time collaboration with Socket.IO and incorporated the Gemini API for AI-driven task insights, including project management, task tracking, and AI-generated insights.",
     link: "https://pcl-frontend-zeta.vercel.app/",
     github: "https://github.com/musman12529/Project-Management-Platform",
-    type: "Featured Project",
+    type: "App Project",
     img: "/projectManagement.png",
-    styles: "col-span-12",
-    type: 1,
+    styles: "col-span-6 sm:col-span-12",
+    type: 0,
   },
   {
     id: uuid(),

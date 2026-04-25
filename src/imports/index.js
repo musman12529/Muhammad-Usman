@@ -7,7 +7,7 @@ export { default as project5 } from "@/assets/images/projects/notes.png";
 export { default as project6 } from "@/assets/images/projects/opinion.png";
 export { default as project7 } from "@/assets/images/projects/chat.png";
 export { default as project8 } from "@/assets/images/projects/Weather.png";
-
+export { default as project9 } from "@/assets/images/projects/study.png";
 
 //* IMPORT IMAGE ARTICLE
 export { default as articles1 } from "@/assets/images/articles/A4.jpg";
