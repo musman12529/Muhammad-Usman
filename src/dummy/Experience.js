@@ -3,11 +3,11 @@ import { v4 as uuid } from "uuid";
 export const dataExperience = [
   {
     id: uuid(),
-    position: "Software Engineer",
+    position: "Founding Software Engineer",
     company: "@Laniva AI",
-    time: "Jan 2025 – Present",
+    time: "Jan 2026 – Present",
     address: "St. John's, NL",
-    work: "Built and launched an AI SaaS platform using Next.js and PostgreSQL, automating property management operations across a portfolio of 350+ residential units. Engineered an LLM-powered communication system using the OpenAI API to handle tenant interactions across phone calls, SMS, and email, automating 70–80% of the workflow. Deployed and scaled production infrastructure on Azure App Services and Azure Blob Storage, ensuring high availability. Drove product iteration through direct customer feedback, improving reliability and real-world performance.",
+    work: "Architected a SaaS platform using Next.js, PostgreSQL, and AWS, automating property management operations across a portfolio of 350+ residential units. Engineered backend services and REST APIs integrating OpenAI, telephony, SMS, and email to automate tenant communication and maintenance coordination, cutting manual effort by 60-70%. Implemented a Retrieval-Augmented Generation (RAG) pipeline using PostgreSQL with pgvector and structured Q&A segmentation, improving retrieval accuracy by 20%. Deployed scalable AWS Elastic Beanstalk infrastructure with Application Load Balancing and GitHub Actions CI/CD pipelines, cutting manual deployment time from 15-20 minutes to a few minutes.",
   },
   {
     id: uuid(),
@@ -15,7 +15,7 @@ export const dataExperience = [
     company: "@Memorial University of Newfoundland, Department of History",
     time: "May 2025 – Apr 2026",
     address: "St. John's, NL",
-    work: "Designed and implemented Python ETL pipelines to migrate 200K+ records from MySQL to Neo4j, enabling efficient relationship queries while maintaining 100% data integrity. Engineered a Node.js backend integrated with Neo4j to support scalable querying and management of relational data. Optimized Neo4j graph queries for complex relationships, reducing latency by approximately 60% over legacy relational database queries. Applied semantic validation using RDF and SHACL to enforce data consistency, preventing invalid relationships in Neo4j.",
+    work: "Designed and implemented Python ETL pipelines to migrate 200K+ records from MySQL to Neo4j, enabling efficient relationship queries while maintaining 100% data integrity. Engineered a Node.js and Express.js backend integrated with Neo4j, exposing 30+ REST APIs for scalable graph querying. Optimized Neo4j graph queries for complex relationships, reducing latency by 60% over legacy relational database queries. Collaborated with a development team throughout the Agile Scrum lifecycle, contributing to sprint planning and delivery.",
   },
   {
     id: uuid(),
@@ -23,7 +23,7 @@ export const dataExperience = [
     company: "@Memorial University of Newfoundland, Department of Psychology",
     time: "May 2025 – Dec 2025",
     address: "St. John's, NL",
-    work: "Led development and deployment of a React-based web application serving 200+ students and faculty, improving accessibility and usability of departmental resources. Implemented a Node.js backend with MongoDB, designing RESTful APIs for scalable and reliable data access. Architected an admin management portal enabling faculty to manage site content and monitor activity independently, reducing ongoing developer maintenance. Integrated Azure Blob Storage for media asset management and deployed the application to Azure.",
+    work: "Led development and deployment of a React-based web application serving 500+ students and faculty, improving accessibility and usability of departmental resources. Implemented a Node.js backend with MongoDB, designing RESTful APIs for scalable and reliable data access. Architected an admin management portal enabling faculty to manage site content and monitor activity independently, reducing ongoing developer maintenance. Integrated Azure Blob Storage for media asset management and deployed the application to Azure.",
   },
   {
     id: uuid(),

@@ -3,11 +3,11 @@ import { v4 as uuid } from "uuid";
 export const DataAbount = [
   {
     id: uuid(),
-    type: "I am a software engineer with experience across product teams and university research settings. At Laniva AI, I ship a Next.js and PostgreSQL SaaS platform with LLM-driven tenant communications on Azure. At Memorial, I have built Neo4j-backed graph services, ETL pipelines at scale, and React and Node.js applications with MongoDB and Azure Blob Storage.",
+    type: "I am a software engineer with experience across startups and university research settings. As the Founding Software Engineer at Laniva AI, I architected a SaaS platform on Next.js, PostgreSQL, and AWS that automates property management operations across 350+ residential units, including an LLM-powered communication system and a RAG pipeline built on pgvector. At Memorial, I have built Neo4j-backed graph services, large-scale ETL pipelines, and React and Node.js applications with MongoDB and Azure Blob Storage.",
   },
   {
     id: uuid(),
-    type: "My toolkit aligns with modern full-stack practice: Python, TypeScript, JavaScript, and Java; React.js and Next.js; Node.js, Express, and Spring Boot; PostgreSQL, MySQL, MongoDB, and Neo4j; and Git, Azure, AWS (Certified Cloud Practitioner), and Postman. I care about reliable deployments, clear APIs, and measurable impact on users.",
+    type: "My toolkit aligns with modern full-stack practice: Python, TypeScript, JavaScript, and Java; React.js and Next.js; Node.js, Express, and Spring Boot; PostgreSQL, MySQL, MongoDB, and Neo4j; and Git, AWS (Certified Cloud Practitioner), Azure, GitHub Actions/CI-CD, and Postman. I care about reliable deployments, clear APIs, and measurable impact on users.",
   },
   {
     id: uuid(),
